@@ -8,14 +8,10 @@ A clean, responsive landing page built for the Finance Club recruitment task. It
 # Features
 - **Responsive Navbar**: Adapts to screen sizes.
 - **Hover Effects**: Interactive buttons and navigation links using CSS transitions.
-- **Hero Section**: High-impact messaging with subtle entrance animations.
-- **Tailwind CSS**: Utility-first styling for a professional finish.
+- **Hero Section**: High-impact messaging with entrance animations.
+- **Tailwind CSS**: Styling for a professional finish.
 
 # Tech Stack
 - **HTML5** (Structure)
 - **Tailwind CSS** (Styling & Layout)
 - **Vanilla CSS** (Custom animations)
-
-# Steps to Run Locally
-1. Clone the repository:
-   ```bash
