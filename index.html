@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance Vision | NIT Rourkela</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom CSS for extra animations */
+        .hover-lift {
+            transition: transform 0.3s ease;
+        }
+        .hover-lift:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+    <nav class="flex justify-between items-center p-6 bg-white shadow-sm sticky top-0 z-50">
+        <div class="text-2xl font-bold text-blue-600">NIT Rourkela Finance Club</div>
+        <div class="space-x-6 hidden md:block">
+            <a href="#" class="hover:text-blue-500 transition duration-300">Home</a>
+            <a href="#" class="hover:text-blue-500 transition duration-300">Analysis</a>
+            <button class="bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-700 transition transform hover:scale-105 active:scale-95">
+                Join Us
+            </button>
+        </div>
+    </nav>
+
+    <section class="h-[80vh] flex flex-col justify-center items-center text-center px-4">
+        <h1 class="text-5xl md:text-7xl font-extrabold mb-6 animate-fade-in">
+            Mastering the <span class="text-blue-600">Market</span>
+        </h1>
+        <p class="text-lg text-gray-600 max-w-2xl mb-8">
+            Empowering students with financial literacy and data-driven stock analysis.
+        </p>
+        <div class="flex gap-4">
+            <a href="#explore" class="bg-gray-900 text-white px-8 py-3 rounded-lg hover-lift">Explore Data</a>
+            <a href="#" class="border-2 border-gray-900 px-8 py-3 rounded-lg hover:bg-gray-900 hover:text-white transition">Learn More</a>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-12 px-6">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
+            <p>&copy; 2026 Finance Club, NIT Rourkela</p>
+            <div class="flex gap-6 mt-4 md:mt-0">
+                <a href="#" class="hover:text-blue-400 transition">GitHub</a>
+                <a href="#" class="hover:text-blue-400 transition">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
