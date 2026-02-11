@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Finance Vision | NIT Rourkela</title>
+    <title>Finance | NIT Rourkela</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         .hover-lift {
@@ -11,6 +11,27 @@
         }
         .hover-lift:hover {
             transform: translateY(-5px);
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Animation Classes */
+        .animate-fade-in {
+            opacity: 0; /* Start invisible */
+            animation: fadeInUp 0.8s ease-out forwards;
+        }
+
+        .delay-300 {
+            animation-delay: 0.3s;
         }
     </style>
 </head>
@@ -31,10 +52,12 @@
         <h1 class="text-5xl md:text-7xl font-extrabold mb-6 animate-fade-in">
             Welcome to the <span class="text-blue-600">Market</span>
         </h1>
-        <p class="text-lg text-gray-600 max-w-2xl mb-8">
+        
+        <p class="text-lg text-gray-600 max-w-2xl mb-8 animate-fade-in delay-300">
             Empowering students with financial knowledge and stock analysis.
         </p>
-        <div class="flex gap-4">
+
+        <div class="flex gap-4 animate-fade-in" style="animation-delay: 0.5s;">
             <a href="#explore" class="bg-gray-900 text-white px-8 py-3 rounded-lg hover-lift">Explore Data</a>
             <a href="#" class="border-2 border-gray-900 px-8 py-3 rounded-lg hover:bg-gray-900 hover:text-white transition">Learn More</a>
         </div>
